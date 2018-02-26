@@ -14,7 +14,6 @@ field = []
 
 while y > len(row):
    row.extend([0])
-   print(row)
 
 field = [row]
 
