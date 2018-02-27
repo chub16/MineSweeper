@@ -19,3 +19,5 @@ field = [row]
 
 while x > len(field):
    field.extend([row])
+
+print(field)

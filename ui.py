@@ -8,9 +8,7 @@ field_top = []
 while y > len(row_top):
    row_top.append('[]')
 
-#добавляем сгенерированую строку на игровое поле
-field_top = [row_top]
-
 #генерируем игровое поле путем добавления строк
 while x > len(field_top):
    field_top.extend([row_top])
+
